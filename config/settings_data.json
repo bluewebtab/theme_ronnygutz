@@ -1,140 +1,47 @@
 {
-    "current": {
-        "sections": {
-            "header": {
-                "type": "header",
-                "settings": {}
-            },
-            "hero-1": {
-                "type": "hero",
-                "settings": {
-                    "hero_size": "large",
-                    "text_size": "large"
-                }
-            },
-            "feature-row": {
-                "type": "feature-row",
-                "settings": {}
-            },
-            "feature-columns": {
-                "type": "feature-columns",
-                "blocks": {
-                    "feature-columns-0": {
-                        "type": "text_block",
-                        "settings": {}
-                    },
-                    "feature-columns-1": {
-                        "type": "text_block",
-                        "settings": {}
-                    },
-                    "feature-columns-2": {
-                        "type": "text_block",
-                        "settings": {}
-                    }
-                },
-                "block_order": [
-                    "feature-columns-0",
-                    "feature-columns-1",
-                    "feature-columns-2"
-                ],
-                "settings": {
-                    "title": ""
-                }
-            },
-            "collection": {
-                "type": "collection",
-                "settings": {
-                    "grid": 4
-                }
-            },
-            "hero-2": {
-                "type": "hero",
-                "settings": {
-                    "text_size": "large"
-                }
-            },
-            "quotes": {
-                "type": "quotes",
-                "blocks": {
-                    "quotes-0": {
-                        "type": "quote",
-                        "settings": {}
-                    },
-                    "quotes-1": {
-                        "type": "quote",
-                        "settings": {}
-                    },
-                    "quotes-2": {
-                        "type": "quote",
-                        "settings": {}
-                    }
-                },
-                "block_order": [
-                    "quotes-0",
-                    "quotes-1",
-                    "quotes-2"
-                ],
-                "settings": {
-                    "title": ""
-                }
-            },
-            "image-bar": {
-                "type": "image-bar",
-                "blocks": {
-                    "image-bar-0": {
-                        "type": "image",
-                        "settings": {}
-                    },
-                    "image-bar-1": {
-                        "type": "image",
-                        "settings": {}
-                    },
-                    "image-bar-2": {
-                        "type": "image",
-                        "settings": {}
-                    }
-                },
-                "block_order": [
-                    "image-bar-0",
-                    "image-bar-1",
-                    "image-bar-2"
-                ],
-                "settings": {}
-            },
-            "footer": {
-                "type": "footer",
-                "blocks": {
-                    "footer-0": {
-                        "type": "link_list",
-                        "settings": {}
-                    },
-                    "footer-1": {
-                        "type": "newsletter",
-                        "settings": {}
-                    }
-                },
-                "block_order": [
-                    "footer-0",
-                    "footer-1"
-                ],
-                "settings": {
-                    "show_payment_icons": true
-                }
-            }
-        },
-        "content_for_index": [
-            "hero-1",
-            "feature-row",
-            "feature-columns",
-            "collection",
-            "hero-2",
-            "quotes",
-            "image-bar"
-        ]
-    },
+    "current": "Default",
     "presets": {
         "Default": {
+            "social_twitter_link": "http://www.twitter.com/profile",
+            "social_facebook_link": "http://www.facebook.com/profile",
+            "social_pinterest_link": "http://www.pinterest.com/profile",
+            "social_instagram_link": "http://www.instagram.com/profile",
+            "social_youtube_link": "http://www.youtube.com/profile",
+            "social_vimeo_link": "http://www.vimeo.com/profile",
             "sections": {
+                "jumbo": {
+                    "type": "jumbo",
+                    "settings": {},
+                    "blocks": {
+                        "jumbo-0": {
+                            "type": "image",
+                            "settings": {}
+                        },
+                        "jumbo-1": {
+                            "type": "image",
+                            "settings": {}
+                        },
+                        "jumbo-2": {
+                            "type": "image",
+                            "settings": {}
+                        },
+                        "jumbo-3": {
+                            "type": "image",
+                            "settings": {}
+                        }
+                    },
+                    "block_order": [
+                        "jumbo-0",
+                        "jumbo-1",
+                        "jumbo-2",
+                        "jumbo-3"
+                    ]
+                },
+                "two_collections": {
+                    "type": "two_collections",
+                    "settings": {
+                    }
+                },
                 "header": {
                     "type": "header",
                     "settings": {}
@@ -241,10 +148,6 @@
                         "footer-0": {
                             "type": "link_list",
                             "settings": {}
-                        },
-                        "footer-1": {
-                            "type": "newsletter",
-                            "settings": {}
                         }
                     },
                     "block_order": [
@@ -257,13 +160,8 @@
                 }
             },
             "content_for_index": [
-                "hero-1",
-                "feature-row",
-                "feature-columns",
-                "collection",
-                "hero-2",
-                "quotes",
-                "image-bar"
+                "jumbo",
+                "two_collections"
             ]
         },
         "Light": {
@@ -312,6 +210,40 @@
             "checkout_button_color": "#23314e",
             "checkout_error_color": "#ff6d6d",
             "sections": {
+                "jumbo": {
+                    "type": "jumbo",
+                    "settings": {},
+                    "blocks": {
+                        "jumbo-0": {
+                            "type": "image",
+                            "settings": {}
+                        },
+                        "jumbo-1": {
+                            "type": "image",
+                            "settings": {}
+                        },
+                        "jumbo-2": {
+                            "type": "image",
+                            "settings": {}
+                        },
+                        "jumbo-3": {
+                            "type": "image",
+                            "settings": {}
+                        }
+                    },
+                    "block_order": [
+                        "jumbo-0",
+                        "jumbo-1",
+                        "jumbo-2",
+                        "jumbo-3"
+                        
+                    ]
+                },
+                "two_collections": {
+                    "type": "two_collections",
+                    "settings": {
+                    }
+                },
                 "header": {
                     "type": "header",
                     "settings": {
@@ -483,20 +415,10 @@
                         "link_list": {
                             "type": "link_list",
                             "settings": {}
-                        },
-                        "text": {
-                            "type": "text",
-                            "settings": {}
-                        },
-                        "newsletter": {
-                            "type": "newsletter",
-                            "settings": {}
-                        }
+                        }         
                     },
                     "block_order": [
-                        "link_list",
-                        "text",
-                        "newsletter"
+                        "link_list"
                     ],
                     "settings": {
                        
@@ -504,13 +426,8 @@
                 }
             },
             "content_for_index": [
-                "hero",
-                "featured-collections",
-                "slideshow",
-                "1492033924902",
-                "1492096252560",
-                "1492033877875",
-                "1492033809691"
+                "jumbo",
+                "two_collections"
             ]
         }
     }
